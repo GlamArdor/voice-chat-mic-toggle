@@ -1,0 +1,6 @@
+{
+	"voice.on": {"sounds": [{"name": "minecraft:random/click_stereo", "pitch": 1.25, "volume": 0.6}]},
+	"voice.off": {"sounds": [{"name": "minecraft:random/click_stereo", "pitch": 0.85, "volume": 0.6}]},
+	"whisper.on": {"sounds": [{"name": "minecraft:random/click_stereo", "pitch": 1.6, "volume": 0.35}]},
+	"whisper.off": {"sounds": [{"name": "minecraft:random/click_stereo", "pitch": 1.1, "volume": 0.35}]}
+}

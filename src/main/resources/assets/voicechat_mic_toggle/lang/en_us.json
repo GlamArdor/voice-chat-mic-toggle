@@ -1,0 +1,39 @@
+{
+	"voicechat_mic_toggle.key_mode.toggle": "Press to switch",
+	"voicechat_mic_toggle.key_mode.both": "Tap or hold",
+	"voicechat_mic_toggle.key_mode.hold": "Only while held",
+
+	"voicechat_mic_toggle.announce.voice.on": "Microphone on",
+	"voicechat_mic_toggle.announce.voice.off": "Microphone off",
+	"voicechat_mic_toggle.announce.whisper.on": "Whispering",
+	"voicechat_mic_toggle.announce.whisper.off": "Stopped whispering",
+
+	"voicechat_mic_toggle.config.title": "Voice Chat Mic Toggle",
+	"voicechat_mic_toggle.config.search": "Search...",
+	"voicechat_mic_toggle.config.reset": "Reset everything",
+	"voicechat_mic_toggle.config.reset.tooltip": "Put every setting back to its default",
+	"voicechat_mic_toggle.config.no_cloth": "Install Cloth Config for the full settings screen",
+
+	"voicechat_mic_toggle.category.keys": "Keys",
+	"voicechat_mic_toggle.category.feedback": "Feedback",
+
+	"voicechat_mic_toggle.option.enabled": "Enabled",
+	"voicechat_mic_toggle.option.enabled.tooltip": "Off, both keys work exactly as Simple Voice Chat makes them.",
+	"voicechat_mic_toggle.option.voice_mode": "Push to talk key",
+	"voicechat_mic_toggle.option.voice_mode.tooltip": "Press to switch: one press turns the microphone on, the next one turns it off.\nTap or hold: a short tap switches it on until the next tap; hold the key longer than the threshold and it only talks while held.\nOnly while held: like a walkie-talkie, as without this mod.\n\nOnly matters with Push to Talk chosen as the activation type in Simple Voice Chat.",
+	"voicechat_mic_toggle.option.whisper_mode": "Whisper key",
+	"voicechat_mic_toggle.option.whisper_mode.tooltip": "Press to switch: one press starts whispering, the next one stops.\nTap or hold: a short tap switches it on until the next tap; hold the key longer than the threshold and it only whispers while held.\nOnly while held: as without this mod.\n\nTalking and whispering end each other: pressing one key switches the other off.",
+	"voicechat_mic_toggle.option.hold_threshold": "Hold threshold",
+	"voicechat_mic_toggle.option.hold_threshold.tooltip": "For \"Tap or hold\": a press longer than this counts as holding, and letting go switches the microphone off again.",
+	"voicechat_mic_toggle.option.ignore_in_screens": "Ignore keys in menus and chat",
+	"voicechat_mic_toggle.option.ignore_in_screens.tooltip": "While a menu or the chat is open, keyboard keys do not switch anything, so typing the letter on the key does not open the microphone. Mouse buttons still work.",
+	"voicechat_mic_toggle.option.click_sound": "Click sound",
+	"voicechat_mic_toggle.option.click_sound.tooltip": "A short click when the microphone switches on or off; the whisper click is higher and quieter. Only you hear it.",
+	"voicechat_mic_toggle.option.sound_volume": "Click volume",
+	"voicechat_mic_toggle.option.sound_volume.tooltip": "How loud the click is.",
+	"voicechat_mic_toggle.option.announce": "Message over the hotbar",
+	"voicechat_mic_toggle.option.announce.tooltip": "Shows \"Microphone on\", \"Whispering\" and so on over the hotbar every time something switches.",
+
+	"voicechat_mic_toggle.unit.percent": "%s%%",
+	"voicechat_mic_toggle.unit.millis": "%s ms"
+}

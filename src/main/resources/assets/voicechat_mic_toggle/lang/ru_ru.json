@@ -1,0 +1,39 @@
+{
+	"voicechat_mic_toggle.key_mode.toggle": "Нажать, чтобы включить",
+	"voicechat_mic_toggle.key_mode.both": "Нажать или удерживать",
+	"voicechat_mic_toggle.key_mode.hold": "Только пока удерживаешь",
+
+	"voicechat_mic_toggle.announce.voice.on": "Микрофон включён",
+	"voicechat_mic_toggle.announce.voice.off": "Микрофон выключен",
+	"voicechat_mic_toggle.announce.whisper.on": "Шёпот включён",
+	"voicechat_mic_toggle.announce.whisper.off": "Шёпот выключен",
+
+	"voicechat_mic_toggle.config.title": "Voice Chat Mic Toggle",
+	"voicechat_mic_toggle.config.search": "Поиск...",
+	"voicechat_mic_toggle.config.reset": "Сбросить всё",
+	"voicechat_mic_toggle.config.reset.tooltip": "Вернуть все настройки к значениям по умолчанию",
+	"voicechat_mic_toggle.config.no_cloth": "Поставь Cloth Config для полного экрана настроек",
+
+	"voicechat_mic_toggle.category.keys": "Клавиши",
+	"voicechat_mic_toggle.category.feedback": "Отклик",
+
+	"voicechat_mic_toggle.option.enabled": "Включено",
+	"voicechat_mic_toggle.option.enabled.tooltip": "Если выключить, обе клавиши работают так же, как в обычном Simple Voice Chat.",
+	"voicechat_mic_toggle.option.voice_mode": "Клавиша «Говорить»",
+	"voicechat_mic_toggle.option.voice_mode.tooltip": "Нажать, чтобы включить: первое нажатие включает микрофон, второе выключает.\nНажать или удерживать: короткое нажатие включает до следующего нажатия, а если держать дольше порога, микрофон работает только пока держишь.\nТолько пока удерживаешь: как рация, как без мода.\n\nРаботает, только если в Simple Voice Chat выбран тип активации «Push to Talk».",
+	"voicechat_mic_toggle.option.whisper_mode": "Клавиша «Шёпот»",
+	"voicechat_mic_toggle.option.whisper_mode.tooltip": "Нажать, чтобы включить: первое нажатие включает шёпот, второе выключает.\nНажать или удерживать: короткое нажатие включает до следующего нажатия, а если держать дольше порога, шёпот работает только пока держишь.\nТолько пока удерживаешь: как без мода.\n\nГолос и шёпот выключают друг друга: нажатие одной клавиши выключает другую.",
+	"voicechat_mic_toggle.option.hold_threshold": "Порог удержания",
+	"voicechat_mic_toggle.option.hold_threshold.tooltip": "Для режима «Нажать или удерживать»: нажатие дольше этого считается удержанием, и микрофон выключится, как только отпустишь клавишу.",
+	"voicechat_mic_toggle.option.ignore_in_screens": "Не реагировать в меню и чате",
+	"voicechat_mic_toggle.option.ignore_in_screens.tooltip": "Пока открыт чат или любое меню, клавиши клавиатуры ничего не переключают: иначе буква, на которой стоит клавиша, включала бы микрофон посреди набора текста. Кнопки мыши работают как обычно.",
+	"voicechat_mic_toggle.option.click_sound": "Щелчок",
+	"voicechat_mic_toggle.option.click_sound.tooltip": "Короткий щелчок, когда микрофон включается или выключается; у шёпота он выше и тише. Слышишь только ты.",
+	"voicechat_mic_toggle.option.sound_volume": "Громкость щелчка",
+	"voicechat_mic_toggle.option.sound_volume.tooltip": "Насколько громко щёлкает.",
+	"voicechat_mic_toggle.option.announce": "Надпись над хотбаром",
+	"voicechat_mic_toggle.option.announce.tooltip": "Показывает «Микрофон включён», «Шёпот включён» и так далее над хотбаром при каждом переключении.",
+
+	"voicechat_mic_toggle.unit.percent": "%s%%",
+	"voicechat_mic_toggle.unit.millis": "%s мс"
+}

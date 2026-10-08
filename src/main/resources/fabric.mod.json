@@ -1,0 +1,47 @@
+{
+	"schemaVersion": 1,
+	"id": "voicechat_mic_toggle",
+	"version": "${version}",
+	"name": "Voice Chat Mic Toggle",
+	"description": "Press once to start talking, press again to stop: turns the push-to-talk and whisper keys of Simple Voice Chat into switches. A short tap can switch while a long hold still works like before. Client side only.",
+	"authors": [
+		"Glam_Ardor"
+	],
+	"contact": {
+		"homepage": "https://codeberg.org/Glam_Ardor/voice-chat-mic-toggle",
+		"sources": "https://codeberg.org/Glam_Ardor/voice-chat-mic-toggle",
+		"issues": "https://codeberg.org/Glam_Ardor/voice-chat-mic-toggle/issues"
+	},
+	"license": "LGPL-3.0-or-later",
+	"icon": "assets/voicechat_mic_toggle/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.glamardor.mictoggle.MicToggleClient"
+		],
+		"modmenu": [
+			"com.glamardor.mictoggle.compat.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		{
+			"config": "voicechat_mic_toggle.mixins.json",
+			"environment": "client"
+		},
+		{
+			"config": "voicechat_mic_toggle.voicechat.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"fabric-api": "*",
+		"minecraft": "${minecraft_range}",
+		"java": ">=21",
+		"voicechat": "*"
+	},
+	"suggests": {
+		"cloth-config": "*",
+		"modmenu": "*"
+	}
+}

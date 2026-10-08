@@ -1,0 +1,11 @@
+{
+	"required": false,
+	"package": "com.glamardor.mictoggle.svcmixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"PTTKeyHandlerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
